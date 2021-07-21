@@ -6,6 +6,8 @@ import Button from '@beans/button';
 import { FieldArray, Formik, Form } from 'formik';
 import { CodeWrapper } from './style';
 
+import { Accordion, AccordionGroup } from '@beans/accordion';
+
 const ContentTypeBuilder = (props) => {
   const initialValues = {
     contentTypeTitle: '',
@@ -13,6 +15,14 @@ const ContentTypeBuilder = (props) => {
   };
 
   const [formValues, setFormValues] = useState();
+  const testSection = {
+    name: '',
+    type: 'array',
+    label: '',
+    sectionTitle: '',
+    validationType: 'object',
+    fields: [],
+  };
 
   const onSubmit = (values) => {
     console.log(values);
@@ -23,9 +33,10 @@ const ContentTypeBuilder = (props) => {
   const handleAddSectionClick = (pushFn) => {
     const newSection = {
       name: '',
-      type: 'text',
+      type: 'array',
       label: '',
       sectionTitle: '',
+      validationType: 'object',
       fields: [],
     };
 
@@ -44,6 +55,11 @@ const ContentTypeBuilder = (props) => {
         {formValues && <strong>Submitted values:</strong>}
         {JSON.stringify(formValues, null, 2)}
       </CodeWrapper>
+      <AccordionGroup>
+        <Accordion id={`section-${0}`} label={`Section-${0}`}>
+          <div>test</div>
+        </Accordion>
+      </AccordionGroup>
       <Formik initialValues={initialValues} onSubmit={onSubmit}>
         {({ values, handleChange }) => (
           <Form>
@@ -54,7 +70,10 @@ const ContentTypeBuilder = (props) => {
               placeholder='Enter Content Type Title'
               name='contentTypeTitle'
               required
-              onChange={handleChange}
+              onChange={(e) => {
+                e.stopPropagation();
+                handleChange(e);
+              }}
             />
             <br></br>
 
@@ -68,16 +87,26 @@ const ContentTypeBuilder = (props) => {
                     >
                       Add Section
                     </Button>
-                    {values.sections.map((section, index) => (
-                      <Section
-                        index={index}
-                        onRemoveSection={(index) =>
-                          handleRemoveSectionClick(remove, index)
-                        }
-                        section={section}
-                        onChange={handleChange}
-                      ></Section>
-                    ))}
+
+                    {/* {values.sections.map((section, index) => (
+                        <Accordion
+                          id={`section-${index}`}
+                          label={`Section-${index}`}
+                        >
+                          <Section
+                            index={index}
+                            onRemoveSection={(index) =>
+                              handleRemoveSectionClick(remove, index)
+                            }
+                            section={section}
+                            onChange={(e) => {
+                              e.stopPropagation();
+                              handleChange(e);
+                            }}
+                          ></Section>
+                        </Accordion>
+                      ))} */}
+                    {/* </AccordionGroup> */}
                   </>
                 );
               }}

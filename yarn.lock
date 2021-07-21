@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.5.5":
-  "integrity" "sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g=="
-  "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.14.5", "@babel/code-frame@^7.5.5":
+  "integrity" "sha512-9pzDqyc6OLDaqe+zbACgFkb6fKMNG6CObKpnYXChRsvYGyEdc7CA2BaqeOM+vOtCS5ndmJicPJhKAwYRI6UfFw=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/code-frame/-/code-frame-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/highlight" "^7.12.13"
+    "@babel/highlight" "^7.14.5"
 
 "@babel/code-frame@7.10.4":
   "integrity" "sha512-vG6SvB6oYEhvgisZNFRmRCUkLz11c7rp+tbNTynGqc6mS1d5ATd/sGyV6W0KZZnXRKMTzZDRgQT3Ou9jhpAfUg=="
@@ -71,21 +71,21 @@
     "semver" "^5.4.1"
     "source-map" "^0.5.0"
 
-"@babel/generator@^7.12.1", "@babel/generator@^7.12.17":
-  "integrity" "sha512-DSA7ruZrY4WI8VxuS1jWSRezFnghEoYEFrZcw9BizQRmOZiUsiHl59+qEARGPqPikwA/GPTyRCi7isuCK/oyqg=="
-  "resolved" "https://registry.npmjs.org/@babel/generator/-/generator-7.12.17.tgz"
-  "version" "7.12.17"
+"@babel/generator@^7.12.1", "@babel/generator@^7.12.17", "@babel/generator@^7.14.8":
+  "integrity" "sha512-cYDUpvIzhBVnMzRoY1fkSEhK/HmwEVwlyULYgn/tMQYd6Obag3ylCjONle3gdErfXBW61SVTlR9QR7uWlgeIkg=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/generator/-/generator-7.14.8.tgz"
+  "version" "7.14.8"
   dependencies:
-    "@babel/types" "^7.12.17"
+    "@babel/types" "^7.14.8"
     "jsesc" "^2.5.1"
     "source-map" "^0.5.0"
 
-"@babel/helper-annotate-as-pure@^7.0.0", "@babel/helper-annotate-as-pure@^7.10.4", "@babel/helper-annotate-as-pure@^7.12.13":
-  "integrity" "sha512-7YXfX5wQ5aYM/BOlbSccHDbuXXFPxeoUmfWtz8le2yTkTZc+BxsiEnENFoi2SlmA8ewDkG2LgIMIVzzn2h8kfw=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-annotate-as-pure@^7.0.0", "@babel/helper-annotate-as-pure@^7.10.4", "@babel/helper-annotate-as-pure@^7.12.13", "@babel/helper-annotate-as-pure@^7.14.5":
+  "integrity" "sha512-EivH9EgBIb+G8ij1B2jAwSH36WnGvkQSEC6CkX/6v6ZFlw5fVOHvsgGF4uiEHO2GzMvunZb6tDLQEQSdrdocrA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/types" "^7.12.13"
+    "@babel/types" "^7.14.5"
 
 "@babel/helper-builder-binary-assignment-operator-visitor@^7.12.13":
   "integrity" "sha512-CZOv9tGphhDRlVjVkAgm8Nhklm9RzSmWpX2my+t7Ua/KT616pEzXsQCjinzvkRvHWJ9itO4f296efroX23XCMA=="
@@ -105,16 +105,17 @@
     "browserslist" "^4.14.5"
     "semver" "^5.5.0"
 
-"@babel/helper-create-class-features-plugin@^7.12.1", "@babel/helper-create-class-features-plugin@^7.12.13", "@babel/helper-create-class-features-plugin@^7.12.17":
-  "integrity" "sha512-I/nurmTxIxHV0M+rIpfQBF1oN342+yvl2kwZUrQuOClMamHF1w5tknfZubgNOLRoA73SzBFAdFcpb4M9HwOeWQ=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.12.17.tgz"
-  "version" "7.12.17"
+"@babel/helper-create-class-features-plugin@^7.12.1", "@babel/helper-create-class-features-plugin@^7.12.13", "@babel/helper-create-class-features-plugin@^7.12.17", "@babel/helper-create-class-features-plugin@^7.14.5":
+  "integrity" "sha512-bpYvH8zJBWzeqi1o+co8qOrw+EXzQ/0c74gVmY205AWXy9nifHrOg77y+1zwxX5lXE7Icq4sPlSQ4O2kWBrteQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.14.8.tgz"
+  "version" "7.14.8"
   dependencies:
-    "@babel/helper-function-name" "^7.12.13"
-    "@babel/helper-member-expression-to-functions" "^7.12.17"
-    "@babel/helper-optimise-call-expression" "^7.12.13"
-    "@babel/helper-replace-supers" "^7.12.13"
-    "@babel/helper-split-export-declaration" "^7.12.13"
+    "@babel/helper-annotate-as-pure" "^7.14.5"
+    "@babel/helper-function-name" "^7.14.5"
+    "@babel/helper-member-expression-to-functions" "^7.14.7"
+    "@babel/helper-optimise-call-expression" "^7.14.5"
+    "@babel/helper-replace-supers" "^7.14.5"
+    "@babel/helper-split-export-declaration" "^7.14.5"
 
 "@babel/helper-create-regexp-features-plugin@^7.12.13":
   "integrity" "sha512-p2VGmBu9oefLZ2nQpgnEnG0ZlRPvL8gAGvPUMQwUdaE8k49rOMuZpOwdQoy5qJf6K8jL3bcAMhVUlHAjIgJHUg=="
@@ -131,35 +132,35 @@
   dependencies:
     "@babel/types" "^7.12.13"
 
-"@babel/helper-function-name@^7.12.13":
-  "integrity" "sha512-TZvmPn0UOqmvi5G4vvw0qZTpVptGkB1GL61R6lKvrSdIxGm5Pky7Q3fpKiIkQCAtRCBUwB0PaThlx9vebCDSwA=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-function-name/-/helper-function-name-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-function-name@^7.12.13", "@babel/helper-function-name@^7.14.5":
+  "integrity" "sha512-Gjna0AsXWfFvrAuX+VKcN/aNNWonizBj39yGwUzVDVTlMYJMK2Wp6xdpy72mfArFq5uK+NOuexfzZlzI1z9+AQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-function-name/-/helper-function-name-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/helper-get-function-arity" "^7.12.13"
-    "@babel/template" "^7.12.13"
-    "@babel/types" "^7.12.13"
+    "@babel/helper-get-function-arity" "^7.14.5"
+    "@babel/template" "^7.14.5"
+    "@babel/types" "^7.14.5"
 
-"@babel/helper-get-function-arity@^7.12.13":
-  "integrity" "sha512-DjEVzQNz5LICkzN0REdpD5prGoidvbdYk1BVgRUOINaWJP2t6avB27X1guXK1kXNrX0WMfsrm1A/ZBthYuIMQg=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-get-function-arity/-/helper-get-function-arity-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-get-function-arity@^7.14.5":
+  "integrity" "sha512-I1Db4Shst5lewOM4V+ZKJzQ0JGGaZ6VY1jYvMghRjqs6DWgxLCIyFt30GlnKkfUeFLpJt2vzbMVEXVSXlIFYUg=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-get-function-arity/-/helper-get-function-arity-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/types" "^7.12.13"
+    "@babel/types" "^7.14.5"
 
-"@babel/helper-hoist-variables@^7.12.13":
-  "integrity" "sha512-KSC5XSj5HreRhYQtZ3cnSnQwDzgnbdUDEFsxkN0m6Q3WrCRt72xrnZ8+h+pX7YxM7hr87zIO3a/v5p/H3TrnVw=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-hoist-variables/-/helper-hoist-variables-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-hoist-variables@^7.12.13", "@babel/helper-hoist-variables@^7.14.5":
+  "integrity" "sha512-R1PXiz31Uc0Vxy4OEOm07x0oSjKAdPPCh3tPivn/Eo8cvz6gveAeuyUUPB21Hoiif0uoPQSSdhIPS3352nvdyQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-hoist-variables/-/helper-hoist-variables-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/types" "^7.12.13"
+    "@babel/types" "^7.14.5"
 
-"@babel/helper-member-expression-to-functions@^7.12.13", "@babel/helper-member-expression-to-functions@^7.12.17":
-  "integrity" "sha512-Bzv4p3ODgS/qpBE0DiJ9qf5WxSmrQ8gVTe8ClMfwwsY2x/rhykxxy3bXzG7AGTnPB2ij37zGJ/Q/6FruxHxsxg=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.12.17.tgz"
-  "version" "7.12.17"
+"@babel/helper-member-expression-to-functions@^7.14.5", "@babel/helper-member-expression-to-functions@^7.14.7":
+  "integrity" "sha512-TMUt4xKxJn6ccjcOW7c4hlwyJArizskAhoSTOCkA0uZ+KghIaci0Qg9R043kUMWI9mtQfgny+NQ5QATnZ+paaA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.14.7.tgz"
+  "version" "7.14.7"
   dependencies:
-    "@babel/types" "^7.12.17"
+    "@babel/types" "^7.14.5"
 
 "@babel/helper-module-imports@^7.0.0", "@babel/helper-module-imports@^7.12.1", "@babel/helper-module-imports@^7.12.13":
   "integrity" "sha512-NGmfvRp9Rqxy0uHSSVP+SRIW1q31a7Ji10cLBcqSDUngGentY4FRiHOFZFE1CLU5eiL0oE8reH7Tg1y99TDM/g=="
@@ -183,17 +184,17 @@
     "@babel/types" "^7.12.17"
     "lodash" "^4.17.19"
 
-"@babel/helper-optimise-call-expression@^7.12.13":
-  "integrity" "sha512-BdWQhoVJkp6nVjB7nkFWcn43dkprYauqtk++Py2eaf/GRDFm5BxRqEIZCiHlZUGAVmtwKcsVL1dC68WmzeFmiA=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-optimise-call-expression@^7.12.13", "@babel/helper-optimise-call-expression@^7.14.5":
+  "integrity" "sha512-IqiLIrODUOdnPU9/F8ib1Fx2ohlgDhxnIDU7OEVi+kAbEZcyiF7BLU8W6PfvPi9LzztjS7kcbzbmL7oG8kD6VA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/types" "^7.12.13"
+    "@babel/types" "^7.14.5"
 
-"@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
-  "integrity" "sha512-C+10MXCXJLiR6IeG9+Wiejt9jmtFpxUc3MQqCmPY8hfCjyUGl9kT+B2okzEZrtykiwrc4dbCPdDoz0A/HQbDaA=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.14.5", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
+  "integrity" "sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-plugin-utils/-/helper-plugin-utils-7.14.5.tgz"
+  "version" "7.14.5"
 
 "@babel/helper-remap-async-to-generator@^7.12.13":
   "integrity" "sha512-Qa6PU9vNcj1NZacZZI1Mvwt+gXDH6CTfgAkSjeRMLE8HxtDK76+YDId6NQR+z7Rgd5arhD2cIbS74r0SxD6PDA=="
@@ -204,15 +205,15 @@
     "@babel/helper-wrap-function" "^7.12.13"
     "@babel/types" "^7.12.13"
 
-"@babel/helper-replace-supers@^7.12.13":
-  "integrity" "sha512-pctAOIAMVStI2TMLhozPKbf5yTEXc0OJa0eENheb4w09SrgOWEs+P4nTOZYJQCqs8JlErGLDPDJTiGIp3ygbLg=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-replace-supers/-/helper-replace-supers-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-replace-supers@^7.12.13", "@babel/helper-replace-supers@^7.14.5":
+  "integrity" "sha512-3i1Qe9/8x/hCHINujn+iuHy+mMRLoc77b2nI9TB0zjH1hvn9qGlXjWlggdwUcju36PkPCy/lpM7LLUdcTyH4Ow=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-replace-supers/-/helper-replace-supers-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/helper-member-expression-to-functions" "^7.12.13"
-    "@babel/helper-optimise-call-expression" "^7.12.13"
-    "@babel/traverse" "^7.12.13"
-    "@babel/types" "^7.12.13"
+    "@babel/helper-member-expression-to-functions" "^7.14.5"
+    "@babel/helper-optimise-call-expression" "^7.14.5"
+    "@babel/traverse" "^7.14.5"
+    "@babel/types" "^7.14.5"
 
 "@babel/helper-simple-access@^7.12.13":
   "integrity" "sha512-0ski5dyYIHEfwpWGx5GPWhH35j342JaflmCeQmsPWcrOQDtCN6C1zKAVRFVbK53lPW2c9TsuLLSUDf0tIGJ5hA=="
@@ -228,17 +229,17 @@
   dependencies:
     "@babel/types" "^7.12.1"
 
-"@babel/helper-split-export-declaration@^7.12.13":
-  "integrity" "sha512-tCJDltF83htUtXx5NLcaDqRmknv652ZWCHyoTETf1CXYJdPC7nohZohjUgieXhv0hTJdRf2FjDueFehdNucpzg=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/helper-split-export-declaration@^7.12.13", "@babel/helper-split-export-declaration@^7.14.5":
+  "integrity" "sha512-hprxVPu6e5Kdp2puZUmvOGjaLv9TCe58E/Fl6hRq4YiVQxIcNvuq6uTM2r1mT/oPskuS9CgR+I94sqAYv0NGKA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/types" "^7.12.13"
+    "@babel/types" "^7.14.5"
 
-"@babel/helper-validator-identifier@^7.12.11":
-  "integrity" "sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.12.11.tgz"
-  "version" "7.12.11"
+"@babel/helper-validator-identifier@^7.12.11", "@babel/helper-validator-identifier@^7.14.5", "@babel/helper-validator-identifier@^7.14.8":
+  "integrity" "sha512-ZGy6/XQjllhYQrNw/3zfWRwZCTVSiBLZ9DHVZxn9n2gip/7ab8mv2TWlKPIBk26RwedCBoWdjLmn+t9na2Gcow=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.8.tgz"
+  "version" "7.14.8"
 
 "@babel/helper-validator-option@^7.12.1", "@babel/helper-validator-option@^7.12.17":
   "integrity" "sha512-TopkMDmLzq8ngChwRlyjR6raKD6gMSae4JdYDB8bByKreQgG0RBTuKe9LRxW3wFtUnjxOPRKBDwEH6Mg5KeDfw=="
@@ -264,19 +265,19 @@
     "@babel/traverse" "^7.12.17"
     "@babel/types" "^7.12.17"
 
-"@babel/highlight@^7.10.4", "@babel/highlight@^7.12.13":
-  "integrity" "sha512-kocDQvIbgMKlWxXe9fof3TQ+gkIPOUSEYhJjqUjvKMez3krV7vbzYCDq39Oj11UAVK7JqPVGQPlgE85dPNlQww=="
-  "resolved" "https://registry.npmjs.org/@babel/highlight/-/highlight-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/highlight@^7.10.4", "@babel/highlight@^7.14.5":
+  "integrity" "sha512-qf9u2WFWVV0MppaL877j2dBtQIDgmidgjGk5VIMw3OadXvYaXn66U1BFlH2t4+t3i+8PhedppRv+i40ABzd+gg=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/highlight/-/highlight-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/helper-validator-identifier" "^7.12.11"
+    "@babel/helper-validator-identifier" "^7.14.5"
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.12.13", "@babel/parser@^7.12.17", "@babel/parser@^7.12.3", "@babel/parser@^7.7.0":
-  "integrity" "sha512-r1yKkiUTYMQ8LiEI0UcQx5ETw5dpTLn9wijn9hk6KkTtOK95FndDN10M+8/s6k/Ymlbivw0Av9q4SlgF80PtHg=="
-  "resolved" "https://registry.npmjs.org/@babel/parser/-/parser-7.12.17.tgz"
-  "version" "7.12.17"
+"@babel/parser@^7.1.0", "@babel/parser@^7.12.17", "@babel/parser@^7.12.3", "@babel/parser@^7.14.5", "@babel/parser@^7.14.8", "@babel/parser@^7.7.0":
+  "integrity" "sha512-syoCQFOoo/fzkWDeM0dLEZi5xqurb5vuyzwIMNZRNun+N/9A4cUZeQaE7dTrB8jGaKuJRBtEOajtnmw0I5hvvA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/parser/-/parser-7.14.8.tgz"
+  "version" "7.14.8"
 
 "@babel/plugin-proposal-async-generator-functions@^7.12.1", "@babel/plugin-proposal-async-generator-functions@^7.12.13":
   "integrity" "sha512-1KH46Hx4WqP77f978+5Ye/VUbuwQld2hph70yaw2hXS2v7ER2f3nlpNMu909HO2rbvP0NKLlMVDPh9KXklVMhA=="
@@ -295,13 +296,13 @@
     "@babel/helper-create-class-features-plugin" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-proposal-class-properties@^7.12.13":
-  "integrity" "sha512-8SCJ0Ddrpwv4T7Gwb33EmW1V9PY5lggTO+A8WjyIwxrSHDUyBw4MtF96ifn1n8H806YlxbVCoKXbbmzD6RD+cA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/plugin-proposal-class-properties@^7.12.13", "@babel/plugin-proposal-class-properties@^7.14.5":
+  "integrity" "sha512-q/PLpv5Ko4dVc1LYMpCY7RVAAO4uk55qPwrIuJ5QJ8c6cVuAmhu7I/49JOppXL6gXf7ZHzpRVEUZdYoPLM04Gg=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.12.13"
-    "@babel/helper-plugin-utils" "^7.12.13"
+    "@babel/helper-create-class-features-plugin" "^7.14.5"
+    "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-proposal-class-properties@7.12.1":
   "integrity" "sha512-cKp3dlQsFsEs5CWKnN7BnSHOd0EOW8EKpEjkoz1pO2E5KzIDNV9Ros1b0CnmbVgAGXJubOYVBOGCT1OmJwOI7w=="
@@ -1138,43 +1139,55 @@
   dependencies:
     "regenerator-runtime" "^0.13.4"
 
-"@babel/template@^7.10.4", "@babel/template@^7.12.13", "@babel/template@^7.3.3":
-  "integrity" "sha512-/7xxiGA57xMo/P2GVvdEumr8ONhFOhfgq2ihK3h1e6THqzTAkHbkXgB0xI9yeTfIUoH3+oAeHhqm/I43OTbbjA=="
-  "resolved" "https://registry.npmjs.org/@babel/template/-/template-7.12.13.tgz"
-  "version" "7.12.13"
+"@babel/template@^7.10.4", "@babel/template@^7.12.13", "@babel/template@^7.14.5", "@babel/template@^7.3.3":
+  "integrity" "sha512-6Z3Po85sfxRGachLULUhOmvAaOo7xCvqGQtxINai2mEGPFm6pQ4z5QInFnUrRpfoSV60BnjyF5F3c+15fxFV1g=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/template/-/template-7.14.5.tgz"
+  "version" "7.14.5"
   dependencies:
-    "@babel/code-frame" "^7.12.13"
-    "@babel/parser" "^7.12.13"
-    "@babel/types" "^7.12.13"
+    "@babel/code-frame" "^7.14.5"
+    "@babel/parser" "^7.14.5"
+    "@babel/types" "^7.14.5"
 
-"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.13", "@babel/traverse@^7.12.17", "@babel/traverse@^7.4.5", "@babel/traverse@^7.7.0":
-  "integrity" "sha512-LGkTqDqdiwC6Q7fWSwQoas/oyiEYw6Hqjve5KOSykXkmFJFqzvGMb9niaUEag3Rlve492Mkye3gLw9FTv94fdQ=="
-  "resolved" "https://registry.npmjs.org/@babel/traverse/-/traverse-7.12.17.tgz"
-  "version" "7.12.17"
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.13", "@babel/traverse@^7.12.17", "@babel/traverse@^7.14.5", "@babel/traverse@^7.4.5", "@babel/traverse@^7.7.0":
+  "integrity" "sha512-kexHhzCljJcFNn1KYAQ6A5wxMRzq9ebYpEDV4+WdNyr3i7O44tanbDOR/xjiG2F3sllan+LgwK+7OMk0EmydHg=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/traverse/-/traverse-7.14.8.tgz"
+  "version" "7.14.8"
   dependencies:
-    "@babel/code-frame" "^7.12.13"
-    "@babel/generator" "^7.12.17"
-    "@babel/helper-function-name" "^7.12.13"
-    "@babel/helper-split-export-declaration" "^7.12.13"
-    "@babel/parser" "^7.12.17"
-    "@babel/types" "^7.12.17"
+    "@babel/code-frame" "^7.14.5"
+    "@babel/generator" "^7.14.8"
+    "@babel/helper-function-name" "^7.14.5"
+    "@babel/helper-hoist-variables" "^7.14.5"
+    "@babel/helper-split-export-declaration" "^7.14.5"
+    "@babel/parser" "^7.14.8"
+    "@babel/types" "^7.14.8"
     "debug" "^4.1.0"
     "globals" "^11.1.0"
-    "lodash" "^4.17.19"
 
-"@babel/types@^7.0.0", "@babel/types@^7.12.1", "@babel/types@^7.12.13", "@babel/types@^7.12.17", "@babel/types@^7.12.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
-  "integrity" "sha512-tNMDjcv/4DIcHxErTgwB9q2ZcYyN0sUfgGKUK/mm1FJK7Wz+KstoEekxrl/tBiNDgLK1HGi+sppj1An/1DR4fQ=="
-  "resolved" "https://registry.npmjs.org/@babel/types/-/types-7.12.17.tgz"
-  "version" "7.12.17"
+"@babel/types@^7.0.0", "@babel/types@^7.12.1", "@babel/types@^7.12.13", "@babel/types@^7.12.17", "@babel/types@^7.12.6", "@babel/types@^7.14.5", "@babel/types@^7.14.8", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
+  "integrity" "sha512-iob4soQa7dZw8nodR/KlOQkPh9S4I8RwCxwRIFuiMRYjOzH/KJzdUfDgz6cGi5dDaclXF4P2PAhCdrBJNIg68Q=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@babel/types/-/types-7.14.8.tgz"
+  "version" "7.14.8"
   dependencies:
-    "@babel/helper-validator-identifier" "^7.12.11"
-    "lodash" "^4.17.19"
+    "@babel/helper-validator-identifier" "^7.14.8"
     "to-fast-properties" "^2.0.0"
 
 "@bcoe/v8-coverage@^0.2.3":
   "integrity" "sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw=="
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
+
+"@beans/accordion@^19.0.2":
+  "integrity" "sha512-OxT0I8iiRr4wI2GyxYsNlqa58Ley+pzYNaD4aNXk6E2d2cOB9A9X8CknwzQPQh/ov1UCsuMNDuXltjnMUxWD4g=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/accordion/-/accordion-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/button" "^19.0.1"
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/icon" "^19.0.1"
+    "@beans/link" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/types" "^19.0.1"
 
 "@beans/button@^18.4.2":
   "integrity" "sha512-qU9vVZ5x7KcaOPRDVSEJjyFJAppvGcmkIp893Tv3jOcBYcO5/+tuZedOLwi0oRUr1nXkiCCP0Iy11jMXjy+nXg=="
@@ -1187,10 +1200,50 @@
     "@beans/theme" "^18.0.0"
     "@beans/types" "^18.0.0"
 
+"@beans/button@^19.0.1":
+  "integrity" "sha512-8J89MvasMnTuKRjFieBDNVEW2bW4Wau4OGsJVdJI9yuCEBDlTK/vU8OXT5P+J87i2AGM/kcEDKZdbH/HpU8rtA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/button/-/button-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/theme" "^19.0.1"
+    "@beans/types" "^19.0.1"
+
 "@beans/constants@^18.0.0":
   "integrity" "sha512-X2nS7XdE6kWHOMAOoDsbZq/BMNi1mZmPyw4A9Cvj5AwABqQQ25T/cNaxr58sdHaPYHNoF0w2TzMlMotC7vIc5w=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/constants/-/constants-18.2.3.tgz"
   "version" "18.2.3"
+
+"@beans/constants@^19.0.1":
+  "integrity" "sha512-J3skJGtq9sl5VygwW+SGTZ8jjD0mp7u9tgmL996b1Fx8aboeWkQdXZ2YyS9C/aGvdc6vtPxN+HVFAm7gTszqTA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/constants/-/constants-19.0.2.tgz"
+  "version" "19.0.2"
+
+"@beans/dropdown-group@^19.0.2":
+  "integrity" "sha512-fFbQuxipBh7Gp+xO5I6N8zeNQi2guOt1nLjbQ4Dv9exWIChUj1+Yioano44CusWRoqsw0mqtWEBS6mUAOiZP/Q=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/dropdown-group/-/dropdown-group-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/dropdown" "^19.0.1"
+    "@beans/form-group" "^19.0.1"
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/types" "^19.0.1"
+
+"@beans/dropdown@^19.0.1":
+  "integrity" "sha512-n7a3VH+W1tCeiYMcIuZZul3uuCACP4IwNNiJ7MwHOx83f8JOhWVpPs4y85GRxtiMGdX9cILigSYzmeoVDK73MQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/dropdown/-/dropdown-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/icon" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/theme" "^19.0.1"
+    "@beans/types" "^19.0.1"
 
 "@beans/f-and-f-serif@^18.0.0":
   "integrity" "sha512-LMjSPRvrD9HNO8lylEuD8DY16T3Jpc1rNUS2ejf7vYS9fDww2qz0arb/NAYQu9gGfZbBcFdMuwJvtSDbWPWC7A=="
@@ -1200,6 +1253,15 @@
     "@beans/constants" "^18.0.0"
     "@beans/helpers" "^18.0.0"
     "@beans/types" "^18.0.0"
+
+"@beans/f-and-f-serif@^19.0.1":
+  "integrity" "sha512-CSlyp47SMcH6CCfVOe2lg0Uz9m11kcijc3yAXl7ViUlnAzhN6Pdoyauzn0W8jvCxtACcNih1HKnIedaG4nKpBw=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/f-and-f-serif/-/f-and-f-serif-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/types" "^19.0.1"
 
 "@beans/form-group@^18.0.0":
   "integrity" "sha512-JqgaWCFyacCaiT0nP4hd6xmt8YOTfRJh5ivRgvL9W42bK9kC1OHPuqq+hpQG/1jszmYll2wpfoAg1L7qIcwvdA=="
@@ -1213,6 +1275,19 @@
     "@beans/selectors" "^18.0.0"
     "@beans/typography" "^18.0.0"
 
+"@beans/form-group@^19.0.1":
+  "integrity" "sha512-tVLh+0OL+PKhbT81XuqQdrYxs1rp78kosoJ/f8WVv2nZFj7P2e5HRGegBeakg92SB3522M3wPxskYL66dqctXw=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/form-group/-/form-group-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/label" "^19.0.1"
+    "@beans/link" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/types" "^19.0.1"
+    "@beans/typography" "^19.0.1"
+
 "@beans/foundation@^18.0.0":
   "integrity" "sha512-slzQAzOo4LHQ99kKvxeR55NgiaoLY72DSdv529G8U/oGWAdYsrIbTGObJrqFJhNdc42WFVUo/vUctx+AUQLz6g=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/foundation/-/foundation-18.4.2.tgz"
@@ -1221,6 +1296,16 @@
     "@beans/helpers" "^18.0.0"
     "@beans/selectors" "^18.0.0"
     "@beans/types" "^18.0.0"
+    "ts-toolbelt" "^3.8.3"
+
+"@beans/foundation@^19.0.1":
+  "integrity" "sha512-YBZ60Ig/uHxRwfPPLNKPndwlP42ef2W0uKhkmMEE+aB6eJG47PfEjjUStWp9osCHXMghuObONBeaawcOng9Ekw=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/foundation/-/foundation-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/helpers" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/types" "^19.0.1"
     "ts-toolbelt" "^3.8.3"
 
 "@beans/helpers@^18.0.0", "@beans/helpers@^18.2.1":
@@ -1236,6 +1321,20 @@
     "react-router-dom" "5.2.0"
     "utility-types" "^3.7.0"
 
+"@beans/helpers@^19.0.1":
+  "integrity" "sha512-z2vV/DwatVBTfrd4LUOHaoNaKsVYpKAMXms3PIo0oCmY3NATVWRRMD2sqcbE9ANz8nxHKdUjrUuGfCTURzGbvA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/helpers/-/helpers-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/types" "^19.0.1"
+    "eventemitter3" "^4.0.0"
+    "hoist-non-react-statics" "^3.3.2"
+    "merge" "^2.1.1"
+    "react-is" "^16.9.0"
+    "react-router-dom" "5.2.0"
+    "utility-types" "^3.7.0"
+
 "@beans/icon@^18.0.0":
   "integrity" "sha512-FjaxHi9/2XB+pYXQQRAksbXf6hTAMgPMmCbRL4jAEHV/9rX5Ta694kpGEN4XrIqz7v9IjfXnKPUnhXA7CBNWOg=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/icon/-/icon-18.5.2.tgz"
@@ -1246,6 +1345,17 @@
     "@beans/selectors" "^18.0.0"
     "@beans/theme" "^18.0.0"
     "@beans/types" "^18.0.0"
+
+"@beans/icon@^19.0.1":
+  "integrity" "sha512-O5pUdas56QPGuztr2cRnGs2MHPbdyjXH9BUm8X8u1vhKfNPRZeBxslJir9p8CRHiJBe+VkMs2F5fbmzcS9ZpaQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/icon/-/icon-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/theme" "^19.0.1"
+    "@beans/types" "^19.0.1"
 
 "@beans/input-group@^18.5.2":
   "integrity" "sha512-KStprD8S6mBVY9auxtLPMxrVfs0OaMQ4L/uD1z60I3BaLv4k2214anrz46NWpt6y4+Ub/yWRBz2osnxFFd41sQ=="
@@ -1276,6 +1386,16 @@
     "@beans/helpers" "^18.0.0"
     "@beans/selectors" "^18.0.0"
 
+"@beans/label@^19.0.1":
+  "integrity" "sha512-B1NJ3S2nPEZUF5jdrDQT0y+Eqi0C3SL1H6fOkXak7enKJyqIzmsuGq1XHpiNr9yvp4CLfbUXxnIMGMAORJ7aSw=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/label/-/label-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/types" "^19.0.1"
+
 "@beans/link@^18.0.0":
   "integrity" "sha512-ve1ibGAuvW0BZzcw/U1kCI3QUtgElIpb/wTO3IRD7k3rFK59TeZfLQi9UMX7t1yupRH8RNz9l6hmv6EEc6waNA=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/link/-/link-18.5.2.tgz"
@@ -1288,6 +1408,19 @@
     "@beans/theme" "^18.0.0"
     "@beans/types" "^18.0.0"
 
+"@beans/link@^19.0.1":
+  "integrity" "sha512-nmVT9XHOHbyZ1HgvWjpjXHjHefk82HlKmjYeDl/axwG6Koft0fqDywt6Qul9Cx5u81sZxcDFZhRXsNIZYuldiw=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/link/-/link-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/foundation" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/icon" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/theme" "^19.0.1"
+    "@beans/types" "^19.0.1"
+
 "@beans/selectors@^18.0.0":
   "integrity" "sha512-hZcP82DjA4ZV409inWE+5LgPKm/j6cFGa4WghZgPEiMwGkJxX3oAOKLiKVKBe1C8vj1iWUN61bfD6bSYAciijw=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/selectors/-/selectors-18.4.2.tgz"
@@ -1296,6 +1429,16 @@
     "@beans/constants" "^18.0.0"
     "@beans/helpers" "^18.0.0"
     "@beans/types" "^18.0.0"
+
+"@beans/selectors@^19.0.1":
+  "integrity" "sha512-JvI+WT2ihACG7oEMvqQHphIvLaZehgitrOlXdD9tqHU6zIP9ve+ptsV+aIb5NX+QBJTd2sccC+D6y7paYJFrLA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/selectors/-/selectors-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/types" "^19.0.1"
+    "merge" "^2.1.1"
 
 "@beans/tesco-lotus@^18.0.0":
   "integrity" "sha512-8DmA85nwzKLCzced91Yx7pZhdc+lFdT4FVLTfj2nbu5TxhXgp8Y/FrVvQz8KtPbYKg9ZieIr2N3SlDkeoIO5uQ=="
@@ -1306,6 +1449,15 @@
     "@beans/helpers" "^18.0.0"
     "@beans/types" "^18.0.0"
 
+"@beans/tesco-lotus@^19.0.1":
+  "integrity" "sha512-gz0A0zxP6kv62gxDsezPsGM92yrhkKbffAqmwfso+RPbTpzPP9AgaZahDcQ7Zc2+rKPwEBRWDO78+TCEYTrcaQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/tesco-lotus/-/tesco-lotus-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/types" "^19.0.1"
+
 "@beans/tesco-modern@^18.0.0":
   "integrity" "sha512-X/ANZBXcLXEmnP8/NXw7d156Nsur/jdUAEdsOK08AXeamSYzvfr+L9kYZ3s90t/ALGZNgG+uUmwWrlrGLFhVBQ=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/tesco-modern/-/tesco-modern-18.4.2.tgz"
@@ -1314,6 +1466,15 @@
     "@beans/constants" "^18.0.0"
     "@beans/helpers" "^18.0.0"
     "@beans/types" "^18.0.0"
+
+"@beans/tesco-modern@^19.0.1":
+  "integrity" "sha512-k5QrX1JkajprwafL/IaPMa0tZeozx6y4vTsQLphOTHv/OInTwhSu8mOjQyoIm1EsgQ3MKPiEWZuGL9Yle/V96g=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/tesco-modern/-/tesco-modern-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/types" "^19.0.1"
 
 "@beans/theme@^18.0.0", "@beans/theme@^18.4.2":
   "integrity" "sha512-aHcKth1B6xyHKiHEWsdfqHoYr5LRxopTC1qtXZgj1adqCmozJVHOSWtjjNPIwiZ36or730vZId5+dxjnHA6PIg=="
@@ -1329,10 +1490,32 @@
     "styled-normalize" "^8.0.6"
     "styled-reset" "^3.0.2"
 
+"@beans/theme@^19.0.1":
+  "integrity" "sha512-M8O7myE7lLcBetuUvGsmBzZvUiLLlNPNSj3D21SNDH89CcgANZLU2ds20qpq+g9D33BnFPn4rgRmjjPDH0PvwQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/theme/-/theme-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/constants" "^19.0.1"
+    "@beans/f-and-f-serif" "^19.0.1"
+    "@beans/helpers" "^19.0.1"
+    "@beans/tesco-lotus" "^19.0.1"
+    "@beans/tesco-modern" "^19.0.1"
+    "@beans/types" "^19.0.1"
+    "merge" "^2.1.1"
+    "styled-normalize" "^8.0.6"
+
 "@beans/types@^18.0.0":
   "integrity" "sha512-FptJapCIaXERW3ic0iEsTxeZHrDtS45Nn53g+dTrN7JVI6dyiQqq4vafoTNcIB0cxEUGuMMAq6iToOYCA2RtXA=="
   "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/types/-/types-18.1.4.tgz"
   "version" "18.1.4"
+  dependencies:
+    "ts-toolbelt" "^3.8.3"
+    "utility-types" "^3.7.0"
+
+"@beans/types@^19.0.1":
+  "integrity" "sha512-jcpi88to56qxJRzxRBJcF1swXBoyUZO4Bs2JpxGKXAvWZZeDufAOV4iUAF7MsVxwN7JH7KsmA3GwxTDcKo6iFQ=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/types/-/types-19.0.1.tgz"
+  "version" "19.0.1"
   dependencies:
     "ts-toolbelt" "^3.8.3"
     "utility-types" "^3.7.0"
@@ -1344,6 +1527,15 @@
   dependencies:
     "@beans/foundation" "^18.0.0"
     "@beans/selectors" "^18.0.0"
+
+"@beans/typography@^19.0.1":
+  "integrity" "sha512-PF2stxBB4cCFEjS0Du2fIucuH4luzP/9S/UytWOWWHl7ZXo2SgTwKFPzxDEqdmqtpVTA88tkKA+2pgKZ+sCYqA=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/@beans/typography/-/typography-19.0.2.tgz"
+  "version" "19.0.2"
+  dependencies:
+    "@beans/foundation" "^19.0.1"
+    "@beans/selectors" "^19.0.1"
+    "@beans/types" "^19.0.1"
 
 "@cnakazawa/watch@^1.0.3":
   "integrity" "sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ=="
@@ -7719,6 +7911,11 @@
   "integrity" "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w=="
   "resolved" "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
   "version" "2.0.0"
+
+"merge@^2.1.1":
+  "integrity" "sha512-jz+Cfrg9GWOZbQAnDQ4hlVnQky+341Yk5ru8bZSe6sIDTCIg8n9i/u7hSQGSVOF3C7lH6mGtqjkiT9G4wFLL0w=="
+  "resolved" "https://nexus.ourtesco.com/repository/online-web-group/merge/-/merge-2.1.1.tgz"
+  "version" "2.1.1"
 
 "merge2@^1.3.0":
   "integrity" "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg=="

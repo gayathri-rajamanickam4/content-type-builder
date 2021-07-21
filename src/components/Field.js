@@ -3,6 +3,7 @@ import InputGroup from '@beans/input-group';
 import { FieldArray } from 'formik';
 import Validation from './Validation';
 import Button from '@beans/button';
+import DropdownGroup from '@beans/dropdown-group';
 
 const Field = (props) => {
   const { sectionIndex, fieldIndex, onChange, field } = props;
@@ -22,13 +23,27 @@ const Field = (props) => {
         onChange={onChange}
         value={field.name}
       />
-      <InputGroup
-        labelText='Enter UI widget to be displayed' /** UI control to be displayed; show dropdown with supported UI control list */
+      <DropdownGroup
         required
+        defaultSelectedValue=''
         name={`sections.${sectionIndex}.fields.${fieldIndex}.type`}
+        labelText='Enter UI widget to be displayed' /** UI control to be displayed; show dropdown with supported UI control list */
         onChange={onChange}
         value={field.type}
-      />
+      >
+        <option value=''>Select option</option>
+        <option value='text'>text box</option>
+        <option value='enum'>drop down</option>
+      </DropdownGroup>
+      {field.type === 'enum' && (
+        <InputGroup
+          labelText='Enter options to be displayed in the dropdown (comma separated)'
+          required
+          name={`sections.${sectionIndex}.fields.${fieldIndex}.options`}
+          onChange={onChange}
+          value={field.options}
+        />
+      )}
       <InputGroup
         labelText='Enter label to be displayed for the field'
         required

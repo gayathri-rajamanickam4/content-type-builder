@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.14.6",
+    "@beans/accordion": "^19.0.2",
     "@beans/button": "^18.4.2",
+    "@beans/dropdown-group": "^19.0.2",
     "@beans/input-group": "^18.5.2",
     "@beans/theme": "^18.4.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -47,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5"
   }
 }

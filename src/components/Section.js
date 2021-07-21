@@ -32,7 +32,7 @@ class Section extends React.Component {
           required
           name={`sections.${index}.name`}
           onChange={onChange}
-          value={section.sectionTitle}
+          value={section.name}
         />
         <InputGroup
           labelText='Section Title'
