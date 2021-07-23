@@ -7,6 +7,7 @@ import { FieldArray, Formik, Form } from 'formik';
 import { CodeWrapper } from './style';
 
 import { Accordion, AccordionGroup } from '@beans/accordion';
+import AccordionGroupContainer from './AccordionContainer';
 
 const ContentTypeBuilder = (props) => {
   const initialValues = {
@@ -15,14 +16,6 @@ const ContentTypeBuilder = (props) => {
   };
 
   const [formValues, setFormValues] = useState();
-  const testSection = {
-    name: '',
-    type: 'array',
-    label: '',
-    sectionTitle: '',
-    validationType: 'object',
-    fields: [],
-  };
 
   const onSubmit = (values) => {
     console.log(values);
@@ -55,11 +48,6 @@ const ContentTypeBuilder = (props) => {
         {formValues && <strong>Submitted values:</strong>}
         {JSON.stringify(formValues, null, 2)}
       </CodeWrapper>
-      <AccordionGroup>
-        <Accordion id={`section-${0}`} label={`Section-${0}`}>
-          <div>test</div>
-        </Accordion>
-      </AccordionGroup>
       <Formik initialValues={initialValues} onSubmit={onSubmit}>
         {({ values, handleChange }) => (
           <Form>
@@ -70,10 +58,7 @@ const ContentTypeBuilder = (props) => {
               placeholder='Enter Content Type Title'
               name='contentTypeTitle'
               required
-              onChange={(e) => {
-                e.stopPropagation();
-                handleChange(e);
-              }}
+              onChange={handleChange}
             />
             <br></br>
 
@@ -87,26 +72,25 @@ const ContentTypeBuilder = (props) => {
                     >
                       Add Section
                     </Button>
-
-                    {/* {values.sections.map((section, index) => (
-                        <Accordion
-                          id={`section-${index}`}
-                          label={`Section-${index}`}
-                        >
-                          <Section
-                            index={index}
-                            onRemoveSection={(index) =>
-                              handleRemoveSectionClick(remove, index)
-                            }
-                            section={section}
-                            onChange={(e) => {
-                              e.stopPropagation();
-                              handleChange(e);
-                            }}
-                          ></Section>
-                        </Accordion>
-                      ))} */}
-                    {/* </AccordionGroup> */}
+                    <AccordionGroupContainer>
+                      <AccordionGroup>
+                        {values.sections.map((section, index) => (
+                          <Accordion
+                            id={`section-${index + 1}`}
+                            label={`Section-${index + 1}`}
+                          >
+                            <Section
+                              index={index}
+                              onRemoveSection={(index) =>
+                                handleRemoveSectionClick(remove, index)
+                              }
+                              section={section}
+                              onChange={handleChange}
+                            ></Section>
+                          </Accordion>
+                        ))}
+                      </AccordionGroup>
+                    </AccordionGroupContainer>
                   </>
                 );
               }}

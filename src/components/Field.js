@@ -4,6 +4,7 @@ import { FieldArray } from 'formik';
 import Validation from './Validation';
 import Button from '@beans/button';
 import DropdownGroup from '@beans/dropdown-group';
+// import CheckboxWithLabel from '@beans/checkbox-with-label';
 
 const Field = (props) => {
   const { sectionIndex, fieldIndex, onChange, field } = props;
@@ -32,8 +33,8 @@ const Field = (props) => {
         value={field.type}
       >
         <option value=''>Select option</option>
-        <option value='text'>text box</option>
-        <option value='enum'>drop down</option>
+        <option value='text'>textbox</option>
+        <option value='enum'>dropdown</option>
       </DropdownGroup>
       {field.type === 'enum' && (
         <InputGroup
@@ -58,6 +59,20 @@ const Field = (props) => {
         onChange={onChange}
         value={field.validationType}
       />
+      {/* <CheckboxWithLabel
+        name={`sections.${sectionIndex}.fields.${fieldIndex}.dependsOn`}
+        labelText='Depends on'
+        onChange={onChange}
+        value={field.dependsOn}
+      />{' '} */}
+      {true && (
+        <InputGroup
+          labelText='Enter name and condition for the dependency'
+          name={`sections.${sectionIndex}.fields.${fieldIndex}.displayCondition`}
+          onChange={onChange}
+          value={field.displayCondition}
+        />
+      )}
       <FieldArray
         name={`sections.${sectionIndex}.fields.${fieldIndex}.validations`}
       >

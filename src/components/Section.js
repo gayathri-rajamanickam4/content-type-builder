@@ -3,6 +3,8 @@ import InputGroup from '@beans/input-group';
 import Button from '@beans/button';
 import Field from './Field';
 import { FieldArray } from 'formik';
+import { Accordion, AccordionGroup } from '@beans/accordion';
+import AccordionGroupContainer from './AccordionContainer';
 
 class Section extends React.Component {
   //   constructor(props) {
@@ -57,14 +59,23 @@ class Section extends React.Component {
                 >
                   Add Field
                 </Button>
-                {section.fields.map((field, fieldIndex) => (
-                  <Field
-                    sectionIndex={index}
-                    fieldIndex={fieldIndex}
-                    onChange={onChange}
-                    field={field}
-                  ></Field>
-                ))}
+                <AccordionGroupContainer>
+                  <AccordionGroup>
+                    {section.fields.map((field, fieldIndex) => (
+                      <Accordion
+                        id={`field-${fieldIndex + 1}`}
+                        label={`Field-${fieldIndex + 1}`}
+                      >
+                        <Field
+                          sectionIndex={index}
+                          fieldIndex={fieldIndex}
+                          onChange={onChange}
+                          field={field}
+                        ></Field>
+                      </Accordion>
+                    ))}
+                  </AccordionGroup>
+                </AccordionGroupContainer>
               </>
             );
           }}
